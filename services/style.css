@@ -1,0 +1,245 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin: 0px;
+
+}
+
+.menu {
+    width: 270px;
+    background-color: black;
+    padding: 60px 30px;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    position: fixed;
+}
+
+#logo {
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin: 10px 0px;
+    display: block;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
+
+.main .menu a {
+    text-decoration: none;
+    color: #cecece;
+    display: list-item;
+    display: block;
+    margin: 15px 0 15px 0;
+    padding: 0 0 12px 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #202020;
+}
+
+#agency {
+    display: block;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #cecece;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin: 0px 0px 60px;
+
+}
+
+.what {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #777;
+    font-weight: 400;
+    letter-spacing: 5px;
+
+}
+
+h2 {
+    color: #101010;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+}
+
+.projects {
+    padding: 61px 33px 0;
+    margin: 0px 0px 30px;
+    line-height: 2em;
+}
+
+.pimg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.workh {
+    padding: 61px 33px 0;
+    margin: 0px 0px 30px;
+    line-height: 2em;
+}
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.works div {
+    padding-top: 25px;
+}
+
+.projects {
+
+    width: 100%;
+}
+
+.about {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #777;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin: 10px;
+    overflow-x: hidden;
+}
+
+.about_main {
+    margin-left: 270px;
+    width: 100%;
+}
+
+.side {
+    display: flex;
+}
+
+h3 {
+    color: #101010;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.side p {
+    margin: 10px;
+    line-height: 2em;
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+    width: auto;
+    overflow-x: auto;
+    color: #6b6b6b;
+}
+
+.about_down {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    text-align: left;
+    width: 100%;
+    float: left;
+    padding: 29px;
+    margin-bottom: 30px;
+    position: relative;
+
+}
+
+.wrapper .brand {
+    color: #777777;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.wrapper ul {
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+.wrapper div {
+    display: block;
+}
+
+.wrapper h3 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #101010;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.wrapper img {
+    font-size: 35px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    /* Should be removed. Only for demonstration */
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    padding: 9px;
+    margin-top: 36px;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.sticky-footer {
+    position: sticky;
+    top: 100%;
+}
